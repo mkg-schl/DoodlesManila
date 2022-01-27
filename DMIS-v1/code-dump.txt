@@ -1,0 +1,37 @@
+login.php
+<!doctype html>
+<html class="no-js" lang="">
+<head>
+   <meta charset="utf-8">
+   <meta http-equiv="x-ua-compatible" content="ie=edge">
+   <title>Webapp</title>
+   <meta name="description" content="">
+   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+   <link rel="shortcut icon" href="Icon.png">
+   <link rel="stylesheet" href="">
+   
+   <style> 
+   </style>
+</head>
+
+	<body>
+		<?php
+			$username = $_GET['username'];
+			$password = $_GET['password'];
+			//test user credentials
+			$user1_username= "admin";
+			$user1_password= "qwerty";
+			
+			//check if user types same credentials
+			if ($username === $user1_username && $password === $user1_password){
+				echo "lol";
+			} else {
+				echo "invalid username and pass";
+			}
+			
+			
+		?>
+	</body>
+	
+</html>
+=================================================
