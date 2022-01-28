@@ -35,3 +35,7 @@ login.php
 	
 </html>
 =================================================
+primary color: #ff3c3c
+lighter color: #f0c6c6
+very light color: #f3e8e8
+dark color: #c42e2e
